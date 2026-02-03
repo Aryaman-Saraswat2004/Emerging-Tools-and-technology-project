@@ -1,3 +1,4 @@
+/** Initial server configuration and dependency analysis **/
 // server/server.js
 const express = require('express');
 const mongoose = require('mongoose');

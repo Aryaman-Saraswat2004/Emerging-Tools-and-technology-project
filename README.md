@@ -475,3 +475,8 @@ Frontend improvements
 CI/CD pipeline added
 Added deployment instructions and improvements.
 // change 14
+
+
+## 📜 Contribution Log (Shrey Bansal)
+
+- **Feb 3, 2026**: Analyzed project requirements and initial server structure.
