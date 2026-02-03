@@ -6,12 +6,13 @@ const router = express.Router();
 
 // Create report (USER)
 router.post("/", auth, async (req, res) => {
-  const { image, description, lat, lng } = req.body;
+  const { image, description, lat, lng , address} = req.body;
 
   const report = await Report.create({
     image,
     description,
     location: { lat, lng },
+    address ,
     createdBy: req.user.id,
   });
 

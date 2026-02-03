@@ -7,6 +7,13 @@ const reportSchema = new mongoose.Schema({
     lat: Number,
     lng: Number,
   },
+   address: {
+    street: String,
+    area: String,
+    city: String,
+    landmark: String,
+    pincode: String
+  },
   status: {
     type: String,
     enum: ["PENDING", "VERIFIED", "TEAM_ASSIGNED", "RESOLVED", "REJECTED"],
