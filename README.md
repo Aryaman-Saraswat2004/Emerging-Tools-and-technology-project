@@ -480,3 +480,4 @@ Added deployment instructions and improvements.
 ## 📜 Contribution Log (Shrey Bansal)
 
 - **Feb 3, 2026**: Analyzed project requirements and initial server structure.
+- **Feb 7, 2026**: Drafted backend architecture and server configuration.

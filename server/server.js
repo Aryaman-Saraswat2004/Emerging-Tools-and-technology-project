@@ -5,6 +5,8 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const path = require('path');
 require('dotenv').config();
+// Main Express application instance
+
 
 const app = express();
 const PORT = process.env.PORT || 5000;
