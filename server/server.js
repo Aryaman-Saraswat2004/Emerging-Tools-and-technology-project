@@ -78,6 +78,8 @@ app.use('*', (req, res) => {
   });
 });
 
+// Database connection management and error handling logic
+
 // MongoDB Connection
 if (process.env.MONGODB_URI) {
   console.log('🔄 Attempting MongoDB connection...');
