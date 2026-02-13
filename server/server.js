@@ -33,6 +33,7 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date().toISOString(),
     environment: process.env.NODE_ENV,
     uptime: process.uptime()
+/** API Routing Table: Define and mount application endpoints **/ 
   });
 });
 
