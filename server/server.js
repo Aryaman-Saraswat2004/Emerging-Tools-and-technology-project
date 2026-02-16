@@ -10,6 +10,8 @@ require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+// Global middleware configuration: Security, Parsing, and Logging
+
 
 console.log('🔍 Starting server setup...');
 

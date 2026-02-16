@@ -483,3 +483,4 @@ Added deployment instructions and improvements.
 - **Feb 7, 2026**: Drafted backend architecture and server configuration.
 - **Feb 10, 2026**: Designed and reviewed MongoDB data schemas.
 - **Feb 13, 2026**: Drafted initial API endpoint documentation.
+- **Feb 16, 2026**: Verified and tested JWT authentication middleware.
