@@ -484,3 +484,4 @@ Added deployment instructions and improvements.
 - **Feb 10, 2026**: Designed and reviewed MongoDB data schemas.
 - **Feb 13, 2026**: Drafted initial API endpoint documentation.
 - **Feb 16, 2026**: Verified and tested JWT authentication middleware.
+- **Feb 28, 2026**: Established React frontend directory and routing structure.
