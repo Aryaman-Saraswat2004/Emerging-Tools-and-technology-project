@@ -12,6 +12,8 @@ import Register from './components/Register';
 import Dashboard from './components/Dashboard';
 import PrivateRoute from './components/PrivateRoute';
 import { Box } from '@mui/material';
+// Professional UI Design System: Harmonious palette and typography settings
+
 
 // Create Material-UI theme
 const theme = createTheme({
