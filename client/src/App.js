@@ -61,6 +61,8 @@ const theme = createTheme({
   },
 });
 
+          /** State Providers: Encapsulate Authentication and Task Contexts **/ 
+
 function App() {
   return (
     <ThemeProvider theme={theme}>
