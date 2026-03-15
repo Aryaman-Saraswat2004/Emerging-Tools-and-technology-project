@@ -487,3 +487,4 @@ Added deployment instructions and improvements.
 - **Feb 28, 2026**: Established React frontend directory and routing structure.
 - **Mar 5, 2026**: Modularized frontend components for better reusability.
 - **Mar 12, 2026**: Implemented global state management using Context API.
+- **Mar 15, 2026**: Refined dashboard navigation and user-specific isolation logic.

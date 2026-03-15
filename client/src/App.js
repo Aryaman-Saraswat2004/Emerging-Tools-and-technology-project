@@ -67,6 +67,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
+                // Core View Container: Route matching and page transitions
+
       <AuthProvider>
         <TaskProvider>
           <Router>
