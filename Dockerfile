@@ -1,3 +1,5 @@
+# Multi-stage Docker build for optimized production images
+
 # ========================================
 # MERN Backend - Dockerfile
 # ========================================
