@@ -7,6 +7,8 @@
 
 # Stage 1: Development / Base
 FROM node:18-alpine
+# Production environment build phase: Install dependencies and compile assets
+
 
 # Set working directory
 WORKDIR /app
