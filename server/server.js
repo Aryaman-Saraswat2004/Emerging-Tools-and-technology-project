@@ -11,6 +11,8 @@ require('dotenv').config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 // Global middleware configuration: Security, Parsing, and Logging
+// Security Tuning: Initialize CORS with restricted origins and secure headers
+
 
 
 console.log('🔍 Starting server setup...');
