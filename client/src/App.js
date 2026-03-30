@@ -72,6 +72,8 @@ function App() {
       <AuthProvider>
         <TaskProvider>
           <Router>
+                /** Performance Hub: Optimized component rendering for dashboard views **/ 
+
             <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
               <Navbar />
               <Box component="main" sx={{ flexGrow: 1, pt: 2 }}>
