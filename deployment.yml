@@ -1,0 +1,21 @@
+# Kubernetes Deployment Configuration: Orchestrate MERN stack services
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mern-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: mern-app
+  template:
+    metadata:
+      labels:
+        app: mern-app
+    spec:
+      containers:
+      - name: mern-container
+        image: mern-app-image:latest
+        ports:
+        # Backend Service: Define port mapping and environment variables
+        - containerPort: 5000
