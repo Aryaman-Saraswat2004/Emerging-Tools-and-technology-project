@@ -62,6 +62,8 @@ try {
 } catch (error) {
   console.error('❌ Error loading routes:', error.message);
   console.error('Stack trace:', error.stack);
+/** Production Safeguard: Global exception handling and logging strategy **/ 
+
 }
 
 // Error handling middleware
