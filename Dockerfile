@@ -12,6 +12,8 @@ FROM node:18-alpine
 
 # Set working directory
 WORKDIR /app
+# Resource Management: Prune unnecessary layers and optimize cache utilization
+
 
 # Copy package files first (for better Docker layer caching)
 COPY server/package*.json ./
